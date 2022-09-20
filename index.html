@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <style>
+      :not(.skip-link):focus {
+        outline: 5px solid red;
+      }
+
+      .skip-link {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        background-color: #333;
+        color: white;
+        padding: .5rem;
+        translate: 0 -100%;
+        transition: translate 150ms ease-in-out;
+      }
+
+      .skip-link:focus {
+        translate: 0;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <a class="skip-link" href="#main-content">Skip to main content</a>
+      <nav>
+        <ul style="display: flex; list-style: none; gap: 1rem" ;>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Store</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main-content">
+      <section>
+        <h1>Article Title</h1>
+        <article>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at
+            urna vel quam molestie feugiat. In et dignissim augue. Praesent
+            euismod rutrum commodo. Pellentesque porta mattis lectus, in
+            pharetra neque bibendum nec. Sed posuere mauris euismod, sagittis
+            neque quis, vulputate nunc. Donec enim velit, porta et porta nec,
+            molestie maximus neque. Mauris vulputate feugiat ornare. Phasellus
+            viverra tellus vitae velit mattis tincidunt. Pellentesque habitant
+            morbi tristique senectus et netus et malesuada fames ac turpis
+            egestas. Sed in libero elit. Praesent gravida congue justo, sit amet
+            pellentesque justo suscipit id. Donec id est dolor. <a href="#">Suspendisse</a>
+            finibus vel sem in aliquam. Aenean semper, libero at mattis
+            convallis, sapien erat consequat velit, quis vestibulum odio leo nec
+            lorem. Proin congue sodales purus, vitae faucibus sem pretium in.
+          </p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
